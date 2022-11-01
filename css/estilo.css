@@ -300,7 +300,7 @@ main {
 
 /* VISTA ESCRITORIO */
 
-@media (min-width: 901px) {
+@media (min-width: 901px) and (max-width: 1500px) {
     
     .gridInicio {
         display: grid;
