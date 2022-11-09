@@ -1,0 +1,31 @@
+header {
+    background-image: url("../imagenes/fondo.webp");
+    background-position:center;
+    height: 100px;
+    width:100%;
+    grid-area: header;
+    text-shadow: antiquewhite;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+h1 {
+    color:white;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.fraseEncabezado {
+    color:white;
+    text-align: center;
+    font-size: 25px;
+}

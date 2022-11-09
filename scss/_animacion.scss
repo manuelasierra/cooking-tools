@@ -1,0 +1,25 @@
+/* TRANSICIÓN */
+
+img:hover {
+    transition: 2s;
+    height: 275px;
+    width: 275px;
+}
+
+/* ANIMACIÓN */
+
+@keyframes texto {
+    0% {
+        opacity: 50%; 
+    }
+
+    100% { 
+        opacity: 200%;
+    }
+}
+
+.mainFaqs {
+    animation-name: texto;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}

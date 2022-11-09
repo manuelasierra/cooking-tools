@@ -1,367 +1,278 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;1,700&display=swap');
-
-body {
-    font-family: 'Raleway', sans-serif;
-    background-color: rgb(235, 224, 209);
-}
-
-* {
-    margin: 0;
-    padding: 0;
-}
-
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;1,700&display=swap");
 header {
-    background-image: url("../imagenes/fondo.webp");
-    background-position:center;
-    height: 100px;
-    width:100%;
-    grid-area: header;
-    text-shadow: antiquewhite;
-    align-items: center;
-    justify-content: center;
-    position: sticky;
-    top: 0;
-
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
+  background-image: url("../imagenes/fondo.webp");
+  background-position: center;
+  height: 100px;
+  width: 100%;
+  grid-area: header;
+  text-shadow: antiquewhite;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
 }
 
 h1 {
-    color:white;
-    text-align: center;
-    font-weight: bolder;
-    font-size: 50px;
+  color: white;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 50px;
 }
 
 .fraseEncabezado {
-    color:white;
-    text-align: center;
-    font-size: 25px;
+  color: white;
+  text-align: center;
+  font-size: 25px;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: rgb(235, 224, 209);
+}
+
+* {
+  margin: 0;
+  padding: 0;
 }
 
 h2 {
-    color:peru;
-    font-weight: bold;
+  color: peru;
+  font-weight: bold;
 }
 
 nav {
-    grid-area: nav;
+  grid-area: nav;
 }
-    
+
 footer {
-    font-weight: bold;
-    color:peru;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    grid-area: footer;
+  font-weight: bold;
+  color: peru;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  grid-area: footer;
 }
 
 section {
-    margin: 1rem;
-    padding: 0.5rem;
-    
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-
-    cursor: pointer;
+  margin: 1rem;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
 }
 
 img {
-    border: 2px solid black;
-    height: 250px;
-    width: 250px;
+  border: 2px solid black;
+  height: 250px;
+  width: 250px;
 }
 
 li {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 form {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .mainFaqs {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .sectionTienda {
-    grid-area: sectionTienda;
+  grid-area: sectionTienda;
 }
 
 .sectionRecetas {
-    grid-area: sectionRecetas;
+  grid-area: sectionRecetas;
 }
 
 .sectionFormulario {
-    grid-area: sectionFormulario;
+  grid-area: sectionFormulario;
 }
 
 .sectionPreguntas {
-    grid-area: sectionPreguntas;
+  grid-area: sectionPreguntas;
 }
 
 .listaTienda {
-    grid-area: listaTienda;
+  grid-area: listaTienda;
 }
 
 .cajaUno {
-    grid-area: cajaUno;
+  grid-area: cajaUno;
 }
 
 .cajaDos {
-    grid-area: cajaDos;
+  grid-area: cajaDos;
 }
 
 .cajaTres {
-    grid-area: cajaTres;
+  grid-area: cajaTres;
 }
 
 .cajaCuadtro {
-    grid-area: cajaCuatro;
+  grid-area: cajaCuatro;
 }
 
 .cajaSeis {
-    grid-area: cajaSeis;
+  grid-area: cajaSeis;
 }
 
 .cajaSiete {
-    grid-area: cajaSiete;
+  grid-area: cajaSiete;
 }
 
 .cajaOcho {
-    grid-area: cajaOcho;
+  grid-area: cajaOcho;
 }
 
 .cajaNueve {
-    grid-area: cajaNueve;
+  grid-area: cajaNueve;
 }
 
 .cajaDiez {
-    grid-area: cajaDiez;
+  grid-area: cajaDiez;
 }
 
 .cajaOnce {
-    grid-area: cajaOnce;
+  grid-area: cajaOnce;
 }
 
 .carousel {
-    grid-area: carousel;
+  grid-area: carousel;
 }
 
 .formulario {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .enviosUno {
-    grid-area: enviosUno;
-    border: 2px double black;
-    height: 100%;
-    width: 100%;
+  grid-area: enviosUno;
+  border: 2px double black;
+  height: 100%;
+  width: 100%;
 }
 
 .enviosDos {
-    grid-area: enviosDos;
-    border: 2px double black;
-    height: 100%;
-    width: 100%;
+  grid-area: enviosDos;
+  border: 2px double black;
+  height: 100%;
+  width: 100%;
 }
 
 .medios {
-    grid-area: medios;
-    border: 2px double black;
-    height: 100%;
-    width: 100%;
+  grid-area: medios;
+  border: 2px double black;
+  height: 100%;
+  width: 100%;
 }
 
 .devoluciones {
-    grid-area: devoluciones;
-    border: 2px double black;
-    height: 100%;
-    width: 100%;
+  grid-area: devoluciones;
+  border: 2px double black;
+  height: 100%;
+  width: 100%;
 }
 
 .monto {
-    grid-area: monto;
-    border: 2px double black;
-    height: 100%;
-    width: 100%;
+  grid-area: monto;
+  border: 2px double black;
+  height: 100%;
+  width: 100%;
 }
 
 .donde {
-    grid-area: donde;
-    border: 2px double black;
-    height: 100%;
-    width: 100%;
+  grid-area: donde;
+  border: 2px double black;
+  height: 100%;
+  width: 100%;
 }
 
 main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: bold;
 }
 
 /* VISTA MÓVIL */
-
-@media (min-width: 350px) and (max-width:650px) {
-    
-    .gridInicio {
-        display: grid;
-        grid-template-areas:
-        "header"
-        "nav"
-        "carousel"
-        "sectionTienda"
-        "sectionRecetas"
-        "sectionFormulario" 
-        "sectionPreguntas"
-        "footer"
-        ;
-    }
-
-    .gridTienda {
-        display: grid;
-        grid-template-areas:
-        "header"
-        "nav"
-        "cajaUno" 
-        "cajaDos"
-        "cajaTres" 
-        "cajaCuatro"
-        "footer"
-        ;
-    }
-
-    .gridRecetas {
-        display: grid;
-        grid-template-areas:
-        "header"
-        "nav"
-        "cajaSeis" 
-        "cajaSiete" 
-        "cajaOcho" 
-        "cajaNueve" 
-        "cajaDiez" 
-        "cajaOnce"
-        "footer"
-        ;
-    }
+@media (min-width: 350px) and (max-width: 650px) {
+  .gridInicio {
+    display: grid;
+    grid-template-areas: "header" "nav" "carousel" "sectionTienda" "sectionRecetas" "sectionFormulario" "sectionPreguntas" "footer";
+  }
+  .gridTienda {
+    display: grid;
+    grid-template-areas: "header" "nav" "cajaUno" "cajaDos" "cajaTres" "cajaCuatro" "footer";
+  }
+  .gridRecetas {
+    display: grid;
+    grid-template-areas: "header" "nav" "cajaSeis" "cajaSiete" "cajaOcho" "cajaNueve" "cajaDiez" "cajaOnce" "footer";
+  }
 }
-
 /* VISTA TABLET */
-
-@media (min-width: 651px) and (max-width:900px) {
-    
-    .gridInicio {
-        display: grid;
-        grid-template-areas:
-        "header header"
-        "nav nav"
-        "carousel carousel"
-        "sectionTienda sectionRecetas"
-        "sectionFormulario sectionPreguntas" 
-        "footer footer"
-        ;
-    }
-
-    .gridTienda {
-        display: grid;
-        grid-template-areas:
-        "header header"
-        "nav nav"
-        "cajaUno cajaDos" 
-        "cajaTres cajaCuatro" 
-        "footer footer"
-        ;
-    }
-
-    .gridRecetas {
-        display: grid;
-        grid-template-areas:
-        "header header"
-        "nav nav"
-        "cajaSeis cajaSiete" 
-        "cajaOcho cajaNueve" 
-        "cajaDiez cajaOnce" 
-        "footer footer"
-        ;
-    }
+@media (min-width: 651px) and (max-width: 900px) {
+  .gridInicio {
+    display: grid;
+    grid-template-areas: "header header" "nav nav" "carousel carousel" "sectionTienda sectionRecetas" "sectionFormulario sectionPreguntas" "footer footer";
+  }
+  .gridTienda {
+    display: grid;
+    grid-template-areas: "header header" "nav nav" "cajaUno cajaDos" "cajaTres cajaCuatro" "footer footer";
+  }
+  .gridRecetas {
+    display: grid;
+    grid-template-areas: "header header" "nav nav" "cajaSeis cajaSiete" "cajaOcho cajaNueve" "cajaDiez cajaOnce" "footer footer";
+  }
 }
-
 /* VISTA ESCRITORIO */
-
 @media (min-width: 901px) and (max-width: 1500px) {
-    
-    .gridInicio {
-        display: grid;
-        grid-template-areas:
-        "header header header header"
-        "nav nav nav nav"
-        "carousel carousel carousel carousel"
-        "sectionTienda sectionTienda sectionRecetas sectionRecetas"
-        "sectionFormulario sectionFormulario sectionPreguntas sectionPreguntas" 
-        "footer footer footer footer"
-        ;
-    }
-
-    .gridTienda {
-        display: grid;
-        grid-template-areas:
-        "header header header header"
-        "nav nav nav nav"
-        "cajaUno cajaUno cajaDos cajaDos" 
-        "cajaTres cajaTres cajaCuatro cajaCuatro" 
-        "footer footer footer footer"
-        ;
-    }
-
-    .gridRecetas {
-        display: grid;
-        grid-template-areas:
-        "header header header header"
-        "nav nav nav nav"
-        "cajaSeis cajaSeis cajaSiete cajaSiete" 
-        "cajaOcho cajaOcho cajaNueve cajaNueve" 
-        "cajaDiez cajaDiez cajaOnce cajaOnce" 
-        "footer footer footer footer"
-        ;
-    }
+  .gridInicio {
+    display: grid;
+    grid-template-areas: "header header header header" "nav nav nav nav" "carousel carousel carousel carousel" "sectionTienda sectionTienda sectionRecetas sectionRecetas" "sectionFormulario sectionFormulario sectionPreguntas sectionPreguntas" "footer footer footer footer";
+  }
+  .gridTienda {
+    display: grid;
+    grid-template-areas: "header header header header" "nav nav nav nav" "cajaUno cajaUno cajaDos cajaDos" "cajaTres cajaTres cajaCuatro cajaCuatro" "footer footer footer footer";
+  }
+  .gridRecetas {
+    display: grid;
+    grid-template-areas: "header header header header" "nav nav nav nav" "cajaSeis cajaSeis cajaSiete cajaSiete" "cajaOcho cajaOcho cajaNueve cajaNueve" "cajaDiez cajaDiez cajaOnce cajaOnce" "footer footer footer footer";
+  }
 }
-
 /* TRANSICIÓN */
-
 img:hover {
-    transition: 2s;
-    height: 275px;
-    width: 275px;
+  transition: 2s;
+  height: 275px;
+  width: 275px;
 }
 
 /* ANIMACIÓN */
-
 @keyframes texto {
-    0% {
-        opacity: 50%; 
-    }
-
-    100% { 
-        opacity: 200%;
-    }
+  0% {
+    opacity: 50%;
+  }
+  100% {
+    opacity: 200%;
+  }
 }
-
 .mainFaqs {
-    animation-name: texto;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
+  animation-name: texto;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
 }
-    
-    
+
+/*# sourceMappingURL=estilo.css.map */

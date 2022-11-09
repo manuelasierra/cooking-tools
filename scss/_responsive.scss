@@ -1,0 +1,126 @@
+/* VISTA MÓVIL */
+
+@media (min-width: 350px) and (max-width:650px) {
+    
+    .gridInicio {
+        display: grid;
+        grid-template-areas:
+        "header"
+        "nav"
+        "carousel"
+        "sectionTienda"
+        "sectionRecetas"
+        "sectionFormulario" 
+        "sectionPreguntas"
+        "footer"
+        ;
+    }
+
+    .gridTienda {
+        display: grid;
+        grid-template-areas:
+        "header"
+        "nav"
+        "cajaUno" 
+        "cajaDos"
+        "cajaTres" 
+        "cajaCuatro"
+        "footer"
+        ;
+    }
+
+    .gridRecetas {
+        display: grid;
+        grid-template-areas:
+        "header"
+        "nav"
+        "cajaSeis" 
+        "cajaSiete" 
+        "cajaOcho" 
+        "cajaNueve" 
+        "cajaDiez" 
+        "cajaOnce"
+        "footer"
+        ;
+    }
+}
+
+/* VISTA TABLET */
+
+@media (min-width: 651px) and (max-width:900px) {
+    
+    .gridInicio {
+        display: grid;
+        grid-template-areas:
+        "header header"
+        "nav nav"
+        "carousel carousel"
+        "sectionTienda sectionRecetas"
+        "sectionFormulario sectionPreguntas" 
+        "footer footer"
+        ;
+    }
+
+    .gridTienda {
+        display: grid;
+        grid-template-areas:
+        "header header"
+        "nav nav"
+        "cajaUno cajaDos" 
+        "cajaTres cajaCuatro" 
+        "footer footer"
+        ;
+    }
+
+    .gridRecetas {
+        display: grid;
+        grid-template-areas:
+        "header header"
+        "nav nav"
+        "cajaSeis cajaSiete" 
+        "cajaOcho cajaNueve" 
+        "cajaDiez cajaOnce" 
+        "footer footer"
+        ;
+    }
+}
+
+/* VISTA ESCRITORIO */
+
+@media (min-width: 901px) and (max-width: 1500px) {
+    
+    .gridInicio {
+        display: grid;
+        grid-template-areas:
+        "header header header header"
+        "nav nav nav nav"
+        "carousel carousel carousel carousel"
+        "sectionTienda sectionTienda sectionRecetas sectionRecetas"
+        "sectionFormulario sectionFormulario sectionPreguntas sectionPreguntas" 
+        "footer footer footer footer"
+        ;
+    }
+
+    .gridTienda {
+        display: grid;
+        grid-template-areas:
+        "header header header header"
+        "nav nav nav nav"
+        "cajaUno cajaUno cajaDos cajaDos" 
+        "cajaTres cajaTres cajaCuatro cajaCuatro" 
+        "footer footer footer footer"
+        ;
+    }
+
+    .gridRecetas {
+        display: grid;
+        grid-template-areas:
+        "header header header header"
+        "nav nav nav nav"
+        "cajaSeis cajaSeis cajaSiete cajaSiete" 
+        "cajaOcho cajaOcho cajaNueve cajaNueve" 
+        "cajaDiez cajaDiez cajaOnce cajaOnce" 
+        "footer footer footer footer"
+        ;
+    }
+}

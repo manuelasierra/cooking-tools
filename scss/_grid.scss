@@ -1,0 +1,119 @@
+.sectionTienda {
+    grid-area: sectionTienda;
+}
+
+.sectionRecetas {
+    grid-area: sectionRecetas;
+}
+
+.sectionFormulario {
+    grid-area: sectionFormulario;
+}
+
+.sectionPreguntas {
+    grid-area: sectionPreguntas;
+}
+
+.listaTienda {
+    grid-area: listaTienda;
+}
+
+.cajaUno {
+    grid-area: cajaUno;
+}
+
+.cajaDos {
+    grid-area: cajaDos;
+}
+
+.cajaTres {
+    grid-area: cajaTres;
+}
+
+.cajaCuadtro {
+    grid-area: cajaCuatro;
+}
+
+.cajaSeis {
+    grid-area: cajaSeis;
+}
+
+.cajaSiete {
+    grid-area: cajaSiete;
+}
+
+.cajaOcho {
+    grid-area: cajaOcho;
+}
+
+.cajaNueve {
+    grid-area: cajaNueve;
+}
+
+.cajaDiez {
+    grid-area: cajaDiez;
+}
+
+.cajaOnce {
+    grid-area: cajaOnce;
+}
+
+.carousel {
+    grid-area: carousel;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.enviosUno {
+    grid-area: enviosUno;
+    border: 2px double black;
+    height: 100%;
+    width: 100%;
+}
+
+.enviosDos {
+    grid-area: enviosDos;
+    border: 2px double black;
+    height: 100%;
+    width: 100%;
+}
+
+.medios {
+    grid-area: medios;
+    border: 2px double black;
+    height: 100%;
+    width: 100%;
+}
+
+.devoluciones {
+    grid-area: devoluciones;
+    border: 2px double black;
+    height: 100%;
+    width: 100%;
+}
+
+.monto {
+    grid-area: monto;
+    border: 2px double black;
+    height: 100%;
+    width: 100%;
+}
+
+.donde {
+    grid-area: donde;
+    border: 2px double black;
+    height: 100%;
+    width: 100%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+}
