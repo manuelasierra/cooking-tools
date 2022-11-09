@@ -74,6 +74,8 @@ img {
   border: 2px solid black;
   height: 250px;
   width: 250px;
+  background: #747272;
+  box-shadow: 20px 20px 60px #636161, -20px -20px 60px #858383;
 }
 
 li {
