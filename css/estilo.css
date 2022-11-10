@@ -277,4 +277,9 @@ img:hover {
   animation-iteration-count: infinite;
 }
 
+.gridPreguntas {
+  font-family: serif;
+  text-align: center;
+}
+
 /*# sourceMappingURL=estilo.css.map */

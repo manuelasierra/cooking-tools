@@ -1,0 +1,9 @@
+@mixin gridPreguntas {
+    font-family:serif; 
+    text-align:center;
+
+}
+
+.gridPreguntas {
+    @include gridPreguntas;
+}
